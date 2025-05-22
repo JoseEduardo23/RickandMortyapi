@@ -1,6 +1,6 @@
 # RickandMortyapi
 
-![image](https://github.com/user-attachments/assets/71cfefdd-536d-43b2-983e-f9e9e3c46510)
+![image](https://github.com/user-attachments/assets/63922981-67d1-4b81-a310-2874530a1151)
 
 #
 # Vista general
