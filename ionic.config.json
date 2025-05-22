@@ -1,0 +1,7 @@
+{
+  "name": "rickapi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
