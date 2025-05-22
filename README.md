@@ -38,3 +38,4 @@
 
 ![Imagen de WhatsApp 2025-05-22 a las 16 08 37_1178d756](https://github.com/user-attachments/assets/d468bf57-7696-42b3-9306-9ae6d5575233)
 
+Integrante: José Lincango.
