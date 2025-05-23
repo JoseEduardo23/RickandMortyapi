@@ -17,6 +17,9 @@
 
 ![image](https://github.com/user-attachments/assets/d151684e-e81a-46e6-8693-529df6ca55bb)
 
+![image](https://github.com/user-attachments/assets/e5c097bf-8b86-4523-b5f1-bb090634c0ac)
+
+
 #
 # Subida de comentarios
 
@@ -28,6 +31,9 @@
 # Vista en firebase
 
 ![image](https://github.com/user-attachments/assets/e8d45843-cab6-4526-a8c9-d59c89edda28)
+
+![image](https://github.com/user-attachments/assets/5f2a388c-7fb5-4522-bd2c-ba16de98350d)
+
 
 #
 # Vista móvil
