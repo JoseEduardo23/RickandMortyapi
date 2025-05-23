@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ characteres?.name || 'Detalles' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="!loading; else loadingTpl" class="ion-padding">
+  <ion-card *ngIf="characteres" class="card">
+    <img [src]="getImageUrl()" alt="{{ characteres.name }}" class="imagens" /> <br> <br>
+    <ion-card-header>
+      <ion-card-title>{{ characteres.name | uppercase }}</ion-card-title>
+      <ion-card-subtitle>Location: {{ getLocation() }}</ion-card-subtitle><br><br>
+    </ion-card-header>
+    <ion-card-content>
+      <p><strong>Episodios:</strong> {{ episodeNames.join(', ') }}</p>
+      <p><strong>Especie:</strong> {{ species}}</p>
+      <p><strong>Estado:</strong> {{ status}}</p>
+      <p><strong>Génenro:</strong> {{ gender }}</p>
+      <p><strong>Ubicación:</strong> {{ location }}</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-content>
+    <ion-item>
+      <ion-textarea [(ngModel)]="comentario" placeholder="Escribe tu comentario" autoGrow="true">
+      </ion-textarea>
+    </ion-item>
+
+    <ion-button expand="block" (click)="subirComentario()">ENVIAR</ion-button> </ion-content>
+</ion-content>
+
+<ng-template #loadingTpl>
+  <ion-spinner name="crescent"></ion-spinner>
+</ng-template>
+
+<style>
+  .imagens {
+    border-radius: 50%;
+  }
+
+  img {
+    border: 4px solid red;
+  }
+</style>
